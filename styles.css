@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(222, 217, 196,0.5);
+ }
+ hr{
+    background-color: rgb(238, 228, 171);
+    border-style: none;
+    height: 2px;
+    width: 30%;
+ }
+ img{
+    height: 120px;
+ }
