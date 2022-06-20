@@ -19,9 +19,9 @@ body{
  }
  }
 
- #collage,#coursera,#binge,#listen,#reading,#vsco:link{
+ #collage,#coursera,#binge,#listen,#reading,#vsco,#linkedin:link{
    color: rgb(169, 113, 85);
  }
- #collage,#coursera,#binge,#listen,#reading,#vsco:visited{
+ #collage,#coursera,#binge,#listen,#reading,#vsco,#linkedin:visited{
    color: rgb(190, 140, 99);
  }
