@@ -1,31 +1,86 @@
-html 
-{
-    
-    font-family :  "Open Sans", sans-serif;
-        
-        }
 
+/* --------------- landing page---------------*/ 
+/* colors -red rgb(202,73,86)
+text white rgb(205,232,235)
+light pastelgreen rgb(204,195,181)*/
+
+#intro{
+  
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(53, 86, 68);
+
+}
 body{
-    background-color: rgb(222, 217, 196,0.5);
- }
- hr{
-    background-color: rgb(238, 228, 171);
-    border-style: none;
-    height: 2px;
-    width: 30%;
- }
- 
- h1{
-   color: rgb(95, 113, 97);
- }
- img{
-    height: 120px;
- }
- }
+  background-color: rgb(204,195,181);
+}
+h1{
+  text-align: center;
+  padding-top: 40vh;
+  font-size: 3.5rem;
+  color: RGB(205, 232, 235);
+  font-family: 'IBM Plex Mono', monospace;
 
- #collage,#coursera,#binge,#listen,#reading,#vsco,#linkedin:link{
-   color: rgb(169, 113, 85);
- }
- #collage,#coursera,#binge,#listen,#reading,#vsco,#linkedin:visited{
-   color: rgb(190, 140, 99);
- }
+  
+}
+
+h3{
+  font-family: 'Merriweather', serif;
+}
+
+.objective
+{
+  text-align: center;
+  padding-top: 15vh;
+  padding-left: 3ch;
+  padding-right: 3ch;
+}
+
+/*-------------------------- grids--------------------- */ 
+.grid {
+
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 3rem;
+
+}
+
+@media (min-width: 600px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .grid{ grid-template-columns: repeat(2, 1fr); }
+}
+
+.grid{
+  padding: 3rem 2rem 3rem 2rem;
+
+}
+
+/*--------------------pic-----------------------*/
+
+.profile{
+display: grid;
+justify-content: center;
+padding: 2rem 2rem 2rem 2rem;
+background-color: rgb(24,25,24);
+}
+.profilepic{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+.profilepic:hover{
+box-shadow: 10px 10px 10px rgb(53, 86, 68);
+  }
+
+  /*------------------------navbar------------*/
+
+  .navbar-brand {
+    color: RGB(205, 232, 235);
+    font-size: small;
+    padding-left: 2ch;
+  }
